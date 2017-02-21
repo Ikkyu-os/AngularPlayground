@@ -4,7 +4,7 @@
 <hr/>
 <hr/>
 <app-lifecycle *ngIf="!delete" [bindable]="boundValue" >
-    <p>{{test}}</p>
+    <p #boundContent>{{test}}</p>
 </app-lifecycle>
 <button (click)="delete = true">Click to delete lifecycle</button>
 <button (click)="test = 'changed value'">Click to change test</button>
