@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'I changed it!';
+  delete = false;
+  test = "initial text";
+  boundValue = "1000";
 }
