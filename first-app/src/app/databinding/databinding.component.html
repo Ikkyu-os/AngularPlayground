@@ -10,3 +10,9 @@
 <p [ngClass]="{redBorder: onTest()}">Is this styled ? </p>
 <p [ngClass]="onTestObject()">Is this styled ?</p>
 <p [ngStyle]="{color: 'green'}">Is this styled ?</p>
+<h3>Custom property binding</h3>
+<app-property-binding [result]="2"></app-property-binding>
+<app-property-binding [result]="10"></app-property-binding>
+<hr/>
+<h1>Event binding</h1>
+<app-event-binding (clicked)="aClickHappened($event)" (clickable)="aClickHappened($event)"></app-event-binding>

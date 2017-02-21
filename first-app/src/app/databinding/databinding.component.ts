@@ -22,4 +22,8 @@ export class DatabindingComponent implements OnInit {
     return {redBorder: false};
   }
 
+  aClickHappened(value: string) {
+    alert(value);
+  }
+
 }
